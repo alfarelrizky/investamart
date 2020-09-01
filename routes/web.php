@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/soal1','soal1Controller@index')->name('soal1.index');
-route::get('/soal2','soal2Controller@index')->name('soal2.index');
-route::get('/soal2/tambah','soal2Controller@indextambah')->name('soal2.indextambah');
+Route::get('/','InvestamartController@index')->name('investamart.index');
+Route::get('/optimistic','InvestamartController@optimistic')->name('investamart.optimistic');
+Route::get('/yolo','InvestamartController@yolo')->name('investamart.yolo');
+Route::get('/quiz','InvestamartController@quiz')->name('investamart.quiz');
+Route::get('/quiz/m/{id}','InvestamartController@quizm')->name('investamart.quizm');

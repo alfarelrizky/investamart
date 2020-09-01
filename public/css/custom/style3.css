@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(255,0,118);
+}
+
+.bg-jumbotron{
+    width:100%;
+    position: absolute;
+}
+
+.icon-jumbotron{
+    width:100%;
+}
+
