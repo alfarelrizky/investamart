@@ -4,29 +4,29 @@
         <div class='col-lg-12'>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; A &nbsp; TRAVELLING KELILING DUNIA
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban'  value='A' required>&nbsp; A &nbsp; TRAVELLING KELILING DUNIA
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; B &nbsp; TABUNGAN MASA DEPAN (DANA PENDIDIKAN, DANA PENSIUN)
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' value='B' required>&nbsp; B &nbsp; TABUNGAN MASA DEPAN (DANA PENDIDIKAN, DANA PENSIUN)
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; C &nbsp; PUNYA GADGET TERBARU
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban'  value='C' required>&nbsp; C &nbsp; PUNYA GADGET TERBARU
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; D &nbsp; BELOM TAU
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban'  value='D' required>&nbsp; D &nbsp; BELOM TAU
                     </div>
                 </div>
             </div>
@@ -37,15 +37,15 @@
         <div class='col-lg-12'>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; A &nbsp; 1-2 Tahun
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='A'>&nbsp; A &nbsp; 1-2 Tahun
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; B &nbsp; > 3-5 Tahun
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='B'>&nbsp; B &nbsp; > 3-5 Tahun
                     </div>
                 </div>
             </div>
@@ -56,15 +56,15 @@
         <div class='col-lg-12'>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; A &nbsp; TIDAK PENTING
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='A'>&nbsp; A &nbsp; TIDAK PENTING
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; B &nbsp; PENTING
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='B'>&nbsp; B &nbsp; PENTING
                     </div>
                 </div>
             </div>
@@ -75,15 +75,15 @@
         <div class='col-lg-12'>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; A &nbsp; BELOM
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='A'>&nbsp; A &nbsp; BELOM
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; B &nbsp; UDAH DONK
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='B'>&nbsp; B &nbsp; UDAH DONK
                     </div>
                 </div>
             </div>
@@ -94,15 +94,15 @@
         <div class='col-lg-12'>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; A &nbsp; < 25%
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='A'>&nbsp; A &nbsp; < 25%
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; B &nbsp; > 25%
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='B'>&nbsp; B &nbsp; > 25%
                     </div>
                 </div>
             </div>
@@ -113,36 +113,36 @@
         <div class='col-lg-12'>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; A &nbsp; TABUNGAN
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='A'>&nbsp; A &nbsp; TABUNGAN
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; B &nbsp; SAHAM
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='B'>&nbsp; B &nbsp; SAHAM
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; C &nbsp; REKSADANA
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='C'>&nbsp; C &nbsp; REKSADANA
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; D &nbsp; DEPOSITO
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='D'>&nbsp; D &nbsp; DEPOSITO
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; E &nbsp; SURAT BERHARGA
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='E'>&nbsp; E &nbsp; SURAT BERHARGA
                     </div>
                 </div>
             </div>
@@ -153,15 +153,15 @@
         <div class='col-lg-12'>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; A &nbsp; TIDAK
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='A'>&nbsp; A &nbsp; TIDAK
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; B &nbsp; YA
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='B'>&nbsp; B &nbsp; YA
                     </div>
                 </div>
             </div>
@@ -172,15 +172,15 @@
         <div class='col-lg-12'>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; A &nbsp; BELOM
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='A'>&nbsp; A &nbsp; BELOM
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; B &nbsp; > UDAH DONK
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='B'>&nbsp; B &nbsp; > UDAH DONK
                     </div>
                 </div>
             </div>
@@ -191,15 +191,15 @@
         <div class='col-lg-12'>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; A &nbsp; CUAN DONK
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='A'>&nbsp; A &nbsp; CUAN DONK
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; B &nbsp; > CARI AMAN AJA DEH
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='B'>&nbsp; B &nbsp; > CARI AMAN AJA DEH
                     </div>
                 </div>
             </div>
@@ -210,15 +210,15 @@
         <div class='col-lg-12'>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; A &nbsp; DIEMIN AJA
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='A'>&nbsp; A &nbsp; DIEMIN AJA
                     </div>
                 </div>
             </div>
             <div class="input-group">
                 <div class="input-group-prepend btn btn-warning mr-2" style='width: 100%;'>
-                    <div class="input-group-text btn btn-danger" style='width: 100%;font-size:2vw;'>
-                    <input type="radio">&nbsp; B &nbsp; > WAKTU NYA BELI
+                    <div class="input-group-text btn jwbn btn-danger" style='width: 100%;font-size:1.8vw;'>
+                    <input type="radio" name='jawaban' required value='B'>&nbsp; B &nbsp; > WAKTU NYA BELI
                     </div>
                 </div>
             </div>

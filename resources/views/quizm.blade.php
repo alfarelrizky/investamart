@@ -17,27 +17,29 @@
                     <div class="col-lg-12" style='margin-bottom:100px;'>
                         <div style='padding-left:75px;padding-right:75px;'>
                             <strong>
-                                <p style='font-size:4vw;line-height:1.2;text-align:center;color:#ff3458' id='place_soal'></p>
+                                <p class='soal' style='font-size:4vw;line-height:1.2;text-align:center;color:#ff3458' id='place_soal'></p>
                             </strong>
                         </div>
                     </div>
                 </div>
-                @include('layouts/particals/pg')
-                <div class="row">
-                    <div class='col-lg-12' style='margin-top:100px;'>
-                        <div class="d-flex justify-content-between">
-                            <div>
-                                <a href='{{route('investamart.quizn',$id)}}' class="btn btn-primary" style='background-color:black;;font-size:2vw;'>ULANG &nbsp;<i class='fas fa-arrow-left'></i></a>
-                            </div>
-                            <div>
-                                <h1>{{$id}}/10</h1>
-                            </div>
-                            <div>
-                                <a href='{{route('investamart.quizm',$id)}}' onclick='al({{$id}});' class="btn btn-primary" style='background-color:black;;font-size:2vw;'>LANJUT &nbsp;<i class='fas fa-arrow-right'></i></a>
+                <form id='formulir' name='formulir'>
+                    @include('layouts/particals/pg')
+                    <div class="row">
+                        <div class='col-lg-12' style='margin-top:100px;'>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <button id='mundur' class="btn tombol text-white" style='background-color:black;;font-size:2vw;'><i class='fas fa-arrow-left'></i> &nbsp;ULANG</button>
+                                </div>
+                                <div>
+                                    <h1>{{$id}}/10</h1>
+                                </div>
+                                <div>
+                                    <button id='majuin' onclick='al({{$id}});' class="btn tombol text-white" style='background-color:black;;font-size:2vw;'>LANJUT &nbsp;<i class='fas fa-arrow-right'></i></button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </form>
             </div>  
         </div>
     {{-- jumbotron - closed --}}
@@ -59,11 +61,30 @@
         let template = document.getElementById('place_soal');
         id = id -1;
         template.innerHTML = soal[id];
+        let jawabane = "";
 
-            const al = (i) =>{
-                if(i == 10){
-                    swal("Good job!", "Quiz Selesai!", "success");
-                }
+        const al = (i) =>{
+            jawabane = document.forms["formulir"]["jawaban"].value;
+            if(i == 10 && jawabane != ""){
+                swal("Good job!", "Quiz Selesai!", "success");
             }
+        }
+        
+        let form = document.getElementById("formulir");
+        document.getElementById("mundur").addEventListener("click", function () {
+            jawabane = document.forms["formulir"]["jawaban"].value;
+            if (jawabane != "") {
+                form.setAttribute("action", '{{route('investamart.quizn',$id)}}');
+                form.submit();
+            }
+        });
+
+        document.getElementById("majuin").addEventListener("click", function () {
+            jawabane = document.forms["formulir"]["jawaban"].value;
+            if (jawabane != "") {
+                form.setAttribute("action", '{{route('investamart.quizm',$id)}}');
+                form.submit();
+            }
+        });
     </script>
 @endsection

@@ -1,5 +1,30 @@
+@media only screen and (max-width: 1000px) {
+    .text{
+        font-size:4vw !important;
+    }
+    .title{
+        font-size: 8vw !important;
+    }
+    .kepala{
+        font-size: 3.5vw !important;
+    }
+    .bujukan{
+        font-size: 4.5vw !important;
+    }
+    .tombol{
+        font-size:5vw !important;
+    }
+    .formulir{
+        font-size: 3.5vw !important;
+    }
+}
+
 body{
     background-color: #48C2C5;
+}
+
+.tombol{
+    font-size:2vw;
 }
 
 .bg-jumbotron{
@@ -11,3 +36,7 @@ body{
     width:100%;
 }
 
+.text{
+    font-size:2vw;
+    line-height: 1.2;
+}

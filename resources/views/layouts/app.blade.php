@@ -8,6 +8,15 @@
     <link href="{{asset('font-awesome/css/all.css')}}" rel="stylesheet"> <!--load all styles -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>    
     <script src="{{asset('js/sweetalert/sweetalert.min.js')}}"></script>
+    <style>
+        @font-face {
+            font-family: CustomFont;
+            src: url("{{asset('fonts/Raleway-Medium 2.ttf')}}");
+        }
+        body{
+            font-family: CustomFont;
+        }
+    </style>
     @yield('style_custom')
 </head>
 <body>
