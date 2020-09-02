@@ -18,3 +18,4 @@ Route::get('/optimistic','InvestamartController@optimistic')->name('investamart.
 Route::get('/yolo','InvestamartController@yolo')->name('investamart.yolo');
 Route::get('/quiz','InvestamartController@quiz')->name('investamart.quiz');
 Route::get('/quiz/m/{id}','InvestamartController@quizm')->name('investamart.quizm');
+Route::get('/quiz/n/{id}','InvestamartController@quizn')->name('investamart.quizn');

@@ -13,25 +13,28 @@
                 </div>
             </div>
             <div class="py-4">
-                <div class="row" style>
-                    <div class="col-lg-12">
+                <div class="row">
+                    <div class="col-lg-12" style='margin-bottom:100px;'>
                         <div style='padding-left:75px;padding-right:75px;'>
                             <strong>
                                 <p style='font-size:4vw;line-height:1.2;text-align:center;color:#ff3458' id='place_soal'></p>
                             </strong>
-                            <div>
-                                <div class="input-group" style='font-size:2.5vw;'>
-                                    <div class="input-group-prepend mr-2">
-                                        <div class="input-group-text">
-                                        <input type="radio" aria-label="Radio button for following text input">
-                                        </div>
-                                    </div>
-                                    A &nbsp; TRAVELLING KELILING DUNIA
-                                </div>
-                            </div>
                         </div>
-                        <div class="d-flex justify-content-center mt-4">
-                            <a href='{{route('investamart.quizm',$id)}}' class="btn btn-primary" style='background-color:black;;font-size:2vw;'>MULAI SEKARANG &nbsp;<i class='fas fa-arrow-right'></i></a>
+                    </div>
+                </div>
+                @include('layouts/particals/pg')
+                <div class="row">
+                    <div class='col-lg-12' style='margin-top:100px;'>
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <a href='{{route('investamart.quizn',$id)}}' class="btn btn-primary" style='background-color:black;;font-size:2vw;'>ULANG &nbsp;<i class='fas fa-arrow-left'></i></a>
+                            </div>
+                            <div>
+                                <h1>{{$id}}/10</h1>
+                            </div>
+                            <div>
+                                <a href='{{route('investamart.quizm',$id)}}' class="btn btn-primary" style='background-color:black;;font-size:2vw;'>LANJUT &nbsp;<i class='fas fa-arrow-right'></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -43,15 +46,15 @@
         let id = <?php echo $id;?>;
         let soal = [
             'APA GOAL KAMU DI MASA DEPAN ?',
-            'soal2',
-            'soal3',
-            'soal4',
-            'soal5',
-            'soal6',
-            'soal7',
-            'soal8',
-            'soal9',
-            'soal10',
+            'BERAPA LAMA WAKTU YANG DIBUTUHKAN UNTUK MENCAPAI GOAL KAMU?',
+            'PENTINGKAH INVESTASI MENURUT KAMU?',
+            'APAKAH KAMU SUDAH MENYISIHKAN UANG KAMU SETIAP BULAN?',
+            'MENURUT KAMU DARI PENGHASILAN BERAPA PERSEN YANG HARUS DISISIHKAN?',
+            'PRODUK INVESTASI APA YANG KAMU KETAHUI?',
+            'APAKAH KAMU MEMAHAMI INVESTASI DI REKSADANA?',
+            'APAKAH KAMU SUDAH BERINVESTASI DI REKSADANA?',
+            'DALAM BERINVESTASI, APA YANG KAMU HARAPKAN?',
+            'APA YANG KAMU LAKUKAN JIKA INVESTASIMU TURUN LEBIH DARI 20% SEBULAN KETIKA PASAR INVESTASI SEDANG NAIK TURUN?',
         ];
         let template = document.getElementById('place_soal');
         id = id -1;

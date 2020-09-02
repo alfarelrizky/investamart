@@ -28,8 +28,19 @@ class InvestamartController extends Controller
     {
         if ($id == null) {
             $id = 1;
+        }elseif ($id == 10) {
+            return redirect('/quiz');
         }else{
             $id += 1;
+        }
+        return view('quizm',compact(['id']));
+    }
+    public function quizn($id)
+    {
+        if ($id == null or $id == 1) {
+            return redirect('/quiz');
+        }else{
+            $id -= 1;
         }
         return view('quizm',compact(['id']));
     }
