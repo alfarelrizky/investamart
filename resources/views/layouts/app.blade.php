@@ -7,12 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="{{asset('font-awesome/css/all.css')}}" rel="stylesheet"> <!--load all styles -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>    
-    <script>
-		$(document).ready(function(){
-			$(".to-labelauty").labelauty({ minimum_width: "155px" });
-			$(".to-labelauty-icon").labelauty({ label: false });
-		});
-	</script>
+    <script src="{{asset('js/sweetalert/sweetalert.min.js')}}"></script>
     @yield('style_custom')
 </head>
 <body>

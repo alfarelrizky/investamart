@@ -33,7 +33,7 @@
                                 <h1>{{$id}}/10</h1>
                             </div>
                             <div>
-                                <a href='{{route('investamart.quizm',$id)}}' class="btn btn-primary" style='background-color:black;;font-size:2vw;'>LANJUT &nbsp;<i class='fas fa-arrow-right'></i></a>
+                                <a href='{{route('investamart.quizm',$id)}}' onclick='al({{$id}});' class="btn btn-primary" style='background-color:black;;font-size:2vw;'>LANJUT &nbsp;<i class='fas fa-arrow-right'></i></a>
                             </div>
                         </div>
                     </div>
@@ -59,5 +59,11 @@
         let template = document.getElementById('place_soal');
         id = id -1;
         template.innerHTML = soal[id];
+
+            const al = (i) =>{
+                if(i == 10){
+                    swal("Good job!", "Quiz Selesai!", "success");
+                }
+            }
     </script>
 @endsection
